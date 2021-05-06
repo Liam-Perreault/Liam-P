@@ -7,7 +7,7 @@ example (.index_code_bg and .poem_code_bg)
 */
 
 .index_body {
-    background-color: #30333A;
+    background-color: #26272B;
     margin: 0px;
     outline-width: 0px;
 }
@@ -15,7 +15,7 @@ example (.index_code_bg and .poem_code_bg)
     height: 150px;
     width: 100%;
     left: 0px;
-    background-color: rgba(44, 43, 51, 0);
+    background-color: rgba(0, 0, 0, 0);
     background-image: linear-gradient(#14171E, rgba(0, 0, 0, 0));
     margin: 0px;
     position: absolute;
@@ -25,7 +25,7 @@ example (.index_code_bg and .poem_code_bg)
     height: 600px;
     width: 100%;
     background-color: rgb(180, 37, 37);
-    background: url(title_page.png);
+    background: url(../img/title_page.png);
     position: absolute;
     margin: 0px;
     top: 0px;
@@ -35,7 +35,7 @@ example (.index_code_bg and .poem_code_bg)
 .index_name {
     color: #EAECF4;
     position: absolute;
-    top: 40px;
+    top: 30px;
     left: 80px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -48,14 +48,26 @@ example (.index_code_bg and .poem_code_bg)
     top:6px;
     left:-50px;
 }
+
+.index_bibliographie {
+  background-color: #00000000;
+  color: #e6e6e6;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  margin-top: 26px;
+  width: 150px;
+  margin-left: 450px;
+}
+
 /* Dropdown Button */
 .index_dropbtn {
     background-color: #00000000;
-    color: #EAECF4;
+    color: #e6e6e6;
     padding: 16px;
     font-size: 16px;
     border: none;
-    margin-top: 35px;
+    margin-top: 26px;
     width: 150px;
   }
   /* The container <div> - needed to position the dropdown content */
@@ -70,7 +82,7 @@ example (.index_code_bg and .poem_code_bg)
   .index_dropdown-content {
     display: none;
     position: absolute;
-    background-color: #EAECF4;
+    background-color: #e6e6e6;
     min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -147,6 +159,22 @@ Start of universal elements
     position: absolute;
     top:6px;
     left:-50px;
+}
+
+.uni_bibliographie {
+  background-color: #00000000;
+  color: #e6e6e6;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  margin-top: 13px;
+  width: 150px;
+  margin-left: 0px;
+}
+
+.uni_button {
+  margin-left: 450px;
+
 }
 
 /* Dropdown Button */
@@ -262,4 +290,59 @@ Start of universal elements
     border-width:2px;
     border-style:solid;
     border-color:#35363b;
+  }
+
+
+  .bibliographie_left_bar {
+    background-color: #949494;
+    width: 400px;
+    height: 1200px;
+    position: absolute;
+    margin: 160px 90px 90px 90px;
+    border-radius: 25px;
+    margin-bottom: 500px;
+    border-width:2px;
+    border-style:solid;
+    border-color:#35363b;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .bibliographie_left_bar_img { 
+    height: 600px;
+    left: -25px;
+    margin-top: -150px;
+  }
+
+  .bibliographie_left_bar_title {
+    margin: 25px;
+
+  }
+
+  .bibliographie_left_bar_text {
+    margin: 25px;
+    line-height: 1.5;
+  }
+
+  .bibliographie_table {
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    border: 2px solid #35363b;
+    margin: 160px 90px 600px 600px;
+    color: #e6e6e6;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+  } 
+
+  .bibliographie_text {
+    width: 800px;
+    height: 100px;
+    margin: 425px 50px 900px 600px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e6e6e6;
+    font-size: 20px;
+    
+
   }
