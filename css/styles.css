@@ -1,0 +1,386 @@
+:root {
+  --dropdown-width: 150px;
+  --textbox-width: 100px;
+  --offset: -25px;
+
+}
+.uni_body {
+    background-color: #1C1D21;
+    margin: 0px;
+    outline-width: 0px;
+}
+
+.uni_bar {
+    height: 150px;
+    width: 100%;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0px;
+    position: absolute;
+
+}
+
+.uni_code_bg {
+    height: 70px;
+    width: 100%;
+    background-color: #26272B;
+    position: absolute;
+    margin: 0px;
+    top: 0px;
+    overflow: hidden;
+    
+}
+
+
+
+.uni_name {
+  color: #e6e6e6;
+  position: absolute;
+  top: 20px;
+  left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  display: block;
+}    
+
+.uni_logo {
+  width: 30px;
+  position: absolute;
+  top:6px;
+  left:-50px;
+}
+
+.uni_bibliographie {
+  background-color: #00000000;
+  color: #e6e6e6;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  margin-top: 13px;
+  width: 150px;
+  margin-left: 0px;
+}
+
+.uni_button {
+  margin-left: 450px;
+
+}
+
+/* Dropdown Button */
+.uni_dropbtn {
+    background-color: #00000000;
+    color: #e6e6e6;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin-top: 13px;
+    width: var(--textbox-width);
+  }
+/* The container <div> - needed to position the dropdown content */
+.uni_dropdown {
+  position: absolute;
+  display: inline-block;
+  margin-left: 300px;
+  width: var(--textbox-width);
+  
+}
+/* Dropdown Content (Hidden by Default) */
+.uni_dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e6e6e6;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: var(--dropdown-width);
+  left: var(--offset);
+}
+/* Links inside the dropdown */
+.uni_dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: -Arial, Helvetica, sans-serif;
+}
+/* Change color of dropdown links on hover */
+.uni_dropdown-content a:hover {background-color: rgb(28, 167, 160);}
+/* Show the dropdown menu on hover */
+.uni_dropdown:hover .uni_dropdown-content {display: block;}
+/* 
+Change the background color of the dropdown button 
+when the dropdown content is shown 
+*/
+.uni_dropdown:hover .uni_dropbtn {background-color: #00000000;}
+
+
+
+/* Dropdown Button */
+.uni_dropbtn_2 {
+  background-color: #00000000;
+  color: #e6e6e6;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  margin-top: 13px;
+  width: var(--textbox-width);
+}
+/* The container <div> - needed to position the dropdown content */
+.uni_dropdown_2 {
+  position: absolute;
+  display: inline-block;
+  margin-left: 410px;
+  width: var(--textbox-width);
+  
+}
+/* Dropdown Content (Hidden by Default) */
+.uni_dropdown-content_2 {
+  display: none;
+  position: absolute;
+  background-color: #e6e6e6;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: var(--dropdown-width);
+  left: var(--offset);
+}
+/* Links inside the dropdown */
+.uni_dropdown-content_2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Change color of dropdown links on hover */
+.uni_dropdown-content_2 a:hover {background-color: rgb(28, 167, 160);}
+/* Show the dropdown menu on hover */
+.uni_dropdown_2:hover .uni_dropdown-content_2 {display: block;}
+/* 
+Change the background color of the dropdown button 
+when the dropdown content is shown 
+*/
+.uni_dropdown_2:hover .uni_dropbtn_2 {background-color: #00000000;}
+
+/* Dropdown Button */
+.uni_dropbtn_3 {
+  background-color: #00000000;
+  color: #e6e6e6;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  margin-top: 13px;
+  width: var(--textbox-width);
+}
+/* The container <div> - needed to position the dropdown content */
+.uni_dropdown_3 {
+  position: absolute;
+  display: inline-block;
+  margin-left: 520px;
+  width: var(--textbox-width);
+  
+}
+/* Dropdown Content (Hidden by Default) */
+.uni_dropdown-content_3 {
+  display: none;
+  position: absolute;
+  background-color: #e6e6e6;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: var(--dropdown-width);
+  left: var(--offset);
+}
+/* Links inside the dropdown */
+.uni_dropdown-content_3 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Change color of dropdown links on hover */
+.uni_dropdown-content_3 a:hover {background-color: rgb(28, 167, 160);}
+/* Show the dropdown menu on hover */
+.uni_dropdown_3:hover .uni_dropdown-content_3 {display: block;}
+/* 
+Change the background color of the dropdown button 
+when the dropdown content is shown 
+*/
+.uni_dropdown_3:hover .uni_dropbtn_3 {background-color: #00000000;}
+
+
+
+
+.uni_intro {
+  background-color: #26272B;
+  color: #e6e6e6;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 600px;
+  max-width: 50%;
+  max-height: 800px;
+  position: relative;
+  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  margin-bottom: 100px;
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 15px;
+  padding-left: 25px;
+  border-width:2px;
+  border-style:solid;
+  border-color:#35363b;
+}
+
+
+
+.uni_window {
+  background-color: #26272B;
+  min-width: 600px;
+  max-width: 50%;
+  max-height: 800px;
+  position: relative;
+  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  margin-bottom: 200px;
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 25px;
+  border-width:2px;
+  border-style:solid;
+  border-color:#35363b;
+}
+
+.uni_window_text {
+  color: #e6e6e6;
+  font-size: 15px;
+}
+
+.uni_window_render {
+  background-color: #ffffff;
+  min-width: 600px;
+  max-width: 50%;
+  height: 800px;
+  position: relative;
+  top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  margin-bottom: 500px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 25px;
+  border-width:2px;
+  border-style:solid;
+  border-color:#35363b;
+}
+
+/* 
+This is the end of the universal section and the start of the 
+bibliography section.
+*/
+
+
+.bibliographie_left_bar {
+  background-color: #5f5f5f;
+  width: 400px;
+  height: 1200px;
+  position: absolute;
+  margin: 160px 90px 90px 90px;
+  border-radius: 5px;
+  margin-bottom: 500px;
+  border-width:2px;
+  border-style:solid;
+  border-color:#35363b;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  right:50px
+}
+
+.bibliographie_left_bar_img { 
+  height: 600px;
+  left: -25px;
+  margin-top: -150px;
+}
+
+.bibliographie_left_bar_title {
+  margin: 25px;
+  color: #e6e6e6;
+
+}
+
+.bibliographie_left_bar_language {
+  margin: 25px;
+  color: #e6e6e6;
+  margin-top: 80px;
+}
+
+
+.bibliographie_left_bar_text {
+  margin: 25px;
+  line-height: 1.5;
+  color: #e6e6e6;
+}
+
+.bibliographie_table {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  margin-left: 20px;
+  color: #e6e6e6;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+.bibliographie_text {
+  width: 800px;
+  height: 100px;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #e6e6e6;
+  font-size: 20px;
+  top: 500px;
+  margin: 25px;
+
+}
+
+.quiz_body {
+  background-color: #26272B;
+  min-width: 600px;
+  max-width: 50%;
+  position: relative;
+  top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 25px;
+  border-width:2px;
+  border-style:solid;
+  border-color:#35363b;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #e6e6e6;
+}
+
+.quiz_body_2 {
+  background-color: #00000000;
+  min-width: 600px;
+  max-width: 50%;
+  position: relative;
+  top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+  overflow: auto;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #e6e6e6;
+}
+
